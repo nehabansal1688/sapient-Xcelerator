@@ -1,0 +1,12 @@
+It is query languague for api's
+
+#Triditional approach
+
+web + mobile -> rest api calls -> get response back
+
+rest api intract with db and does operation
+
+__cons__
+1) multiple netork calls
+2) 
+     
