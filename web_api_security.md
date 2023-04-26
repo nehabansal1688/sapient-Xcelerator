@@ -33,4 +33,19 @@ __Security prinipal__
 6)  REDOS - reg ex denial of service
 7)  SQL injection
 8)  CSRF - cross site request forgery
-9)  
+
+
+__security prevention by using http headers__
+1) X-Frame-Options - DENy or sameorigin
+2) X-Content-Type-Options nosniff
+3) access-control-allow-origin - server your domain use domainname or self
+4) content security policy - we can create policy directives i.e. images will be loaded from 'abc.com', styles will be loaded from 'self'. we can block unwanted images/resources to be downloaded. we can avoid non malicious data on website. 
+5) stict transport security - site can only be accessed using https and we can set max-age to 1 year etc
+
+
+__Securing API's__
+1) authuntication and authorization
+2) request validation and encryption
+3) throtle api request
+4) log api activity
+5) security tests
