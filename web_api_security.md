@@ -49,3 +49,10 @@ __Securing API's__
 3) throtle api request
 4) log api activity
 5) security tests
+
+
+__Secure Microservice Architecture__
+<img width="936" alt="Screenshot 2023-05-03 at 9 10 50 AM" src="https://user-images.githubusercontent.com/11769073/235828640-dcdb605d-68cc-45e2-8045-abc876dd69f4.png">
+<img width="927" alt="Screenshot 2023-05-03 at 9 11 07 AM" src="https://user-images.githubusercontent.com/11769073/235828665-efff6f9f-e587-4e98-8f19-d41b465f2b66.png">
+
+
