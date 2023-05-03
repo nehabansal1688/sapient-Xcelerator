@@ -56,3 +56,25 @@ __Secure Microservice Architecture__
 <img width="927" alt="Screenshot 2023-05-03 at 9 11 07 AM" src="https://user-images.githubusercontent.com/11769073/235828665-efff6f9f-e587-4e98-8f19-d41b465f2b66.png">
 
 
+__Generating JWT Token__
+jsonwebtoken npm
+jwt.sign(data, secret)
+
+server returns token on successfull login 
+store token in memory - not at all in localstorage
+
+__oauth__
+google auth integration
+npm reactoauth/google. - useGooglelogin
+
+wrap app with GoogleOAuthProbvider and pass clientId to it
+get access_token from useGoogleLogin and save it in memory and use for future calls
+
+
+get clientid and other stuff from google cloud
+https://console.cloud.google.com/projectselector2/apis/credentials/consent?supportedpurview=project - oauth concent screen
+
+
+how to secure jwt token - https
+<img width="554" alt="Screenshot 2023-05-03 at 10 39 20 AM" src="https://user-images.githubusercontent.com/11769073/235836584-d2ccd372-3b41-467e-9ce5-2e4fd94f4339.png">
+
