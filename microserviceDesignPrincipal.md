@@ -4,6 +4,7 @@ monolith
 <img width="205" alt="Screenshot 2023-05-08 at 9 02 42 AM" src="https://user-images.githubusercontent.com/11769073/236727875-fc7326f0-7280-493d-afd7-35bcc482c3a9.png">
 
 n tier
+<img width="789" alt="Screenshot 2023-05-08 at 9 56 33 AM" src="https://user-images.githubusercontent.com/11769073/236733768-a3c83241-74ac-4a90-9720-fa834485d91f.png">
 
 
 foor odereing - >
