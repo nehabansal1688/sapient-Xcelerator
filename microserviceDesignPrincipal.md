@@ -27,8 +27,8 @@ communication ways
 # Decomposing Microservices - citibank
 * business capabilities - banking, credit card, nri account, support, MF & equities
 * business domains 
- 1) generic  - marketing n HR (doesnt generate any bussiness value) (decision on buy vs build)
- 2) core - brad n butter, complete focus should be on developing these
- 3) support - doesnt gerenarey bussiness value, (decision on buy vs build), chatbot
+   1) generic  - marketing n HR (doesnt generate any bussiness value) (decision on buy vs build)
+   2) core - brad n butter, complete focus should be on developing these
+   3) support - doesnt gerenarey bussiness value, (decision on buy vs build), chatbot
 * bounded context pattern - based on user stories like i as user should be able to login to system , i as user should be able to add product to cart
 * Strangler pattern - take existing monolith and convert it to microservices gradually
