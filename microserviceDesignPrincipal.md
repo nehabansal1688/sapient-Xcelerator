@@ -32,3 +32,15 @@ communication ways
    3) support - doesnt gerenarey bussiness value, (decision on buy vs build), chatbot
 * bounded context pattern - based on user stories like i as user should be able to login to system , i as user should be able to add product to cart
 * Strangler pattern - take existing monolith and convert it to microservices gradually
+
+
+
+Resiliance 
+
+* External config pattern - app config reside somewhere else not in the app itself
+  1) keeping var in env files - react
+  2) nest js has configService
+*  Service Discovery Pattern -  keeping all service config like link to product, shipping service in sds and use that to make api calls
+  1) decouple code 
+  2) easy to scale, no code change in repo when we have to add new service, we just need to make entry in SDS 
+* 
