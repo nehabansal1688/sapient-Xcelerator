@@ -35,7 +35,7 @@ communication ways
 
 
 
-Resiliance 
+# Resiliance 
 
 * External config pattern - app config reside somewhere else not in the app itself
   1) keeping var in env files - react
@@ -43,4 +43,19 @@ Resiliance
 *  Service Discovery Pattern -  keeping all service config like link to product, shipping service in sds and use that to make api calls
   1) decouple code 
   2) easy to scale, no code change in repo when we have to add new service, we just need to make entry in SDS 
+* Circuit Breaker pattern - stop one service failure effect to cascade on other services. One service failure shd not impact whole system
+  1) closed state - when client request -> proxy -> server -> response to proxy -> response to client.  (happy path)
+  2) open state -> when there is failure
+  3) half open state -> 20% etc request will go to service and 80% will get response back from proxy
+ circuit breaker shd just manage state. retry machanism shd be in diff place to keep segregaation of concern
+
+# event bus - message queue
+* Rabbit MQ - just for messages
+* Kafka - Support media too along with normal messages
+* TCP
+* HTTP
 * 
+
+there will be event bus where in all the messages will be push and different services will sub and publish on the queue name/kafka topic
+if 
+
