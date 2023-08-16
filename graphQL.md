@@ -11,6 +11,7 @@ __cons__
 1) multiple network calls
 2) overfetching and under fetching of data
 3) more bandwidth comsumption as unwanted data is sent to clinet too
+4) custom api to get desired query response
 
 # using GraphQL
 1) enable user to fetch only required data with whatsoever shape they want with statically defining the type
