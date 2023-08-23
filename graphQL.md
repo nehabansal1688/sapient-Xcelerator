@@ -64,3 +64,31 @@ addCompany: async(root, {input}) => {
 //add logic to craate new record
 return company
 }
+
+
+use InMemoryCache in apollo client to cache the results of queries.
+in case you always to fetch real time data then set Fetchpolicy as 'network-only'
+
+use apolloClinet.query or apolloclient.mutate to get or add records
+
+Data can be writted directly to apollo client cache.
+
+apolloClinet.mutate({
+mutation,
+variables:{ input: {title,description }},
+update: (cache, {data}) => {
+  cache.writeQuery({
+    query: add gql query here,
+    variables: pass any variables if needed,
+    data
+  
+  });
+}
+
+
+
+use UseQuery and useMutation Hooks for get and put actions.
+
+useQuery accept query and variable object and returns data, loading and error.
+
+useMutation accept mutation and returns function, loading,error. returned function has to be called onSubit, onClick actions etc.
