@@ -31,6 +31,18 @@ __cons__
 13) all query types wil be post, content type will be application-json
 
 
+
+**Caching Strategy in apolloclient**
+
+apollo client caches data by default. one can specify fetchPolicy to cache-only, cache-and-network, network-only, no-cache
+
+cache-first - make query -> if response is cached then return that, if not cached then hit api and get data and cache it n then return to the user.
+cache-and-network -> make query -> if response is cached then use it but still make api call to get latest data
+network-only - make query -> api call -> update cache -> return response
+
+no-cache - just like network but does not update cache
+cache-only- no req to api just calls cache and return data from cache if found/not
+
 * graph ql provides scaler(int, float, string, boolean, ID- GUID, list, enum, array, ) and custom type data
 
 type query {
